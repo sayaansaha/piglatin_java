@@ -11,6 +11,7 @@ public class heightGuesser {
         // intialize variables needed
         int fatherHeight, motherHeight, maleKidHeight, femaleKidHeight;
 
+
         System.out.println("What is the sex of your child? please enter male or female");
 
         // reads sex and assigns boolean
