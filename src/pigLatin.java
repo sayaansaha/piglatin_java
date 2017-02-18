@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Created by Admin on 2/18/17. The first attempt was the least useful 
+ * Created by Admin on 2/18/17. The first attempt was the least useful
  */
 public class pigLatin {
     public static void main(String[] arg) {
