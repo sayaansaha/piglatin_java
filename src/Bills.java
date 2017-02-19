@@ -22,14 +22,14 @@ public class Bills {
 
     private double computeFee(int hours, int minutesWorked){
         minutesWorked = (hours * 60) + minutesWorked;
-        return minutesWorked * RATE;
+        return (minutesWorked * RATE);
     }
 
     public void updateFee(){
         fee = computeFee(hours, minutes);
     }
 
-    public void outputBill(){
+     public void outputBill(){
         System.out.println("Your calculated rate is " + fee);
         System.out.println("Based on " + hours + " hours and " + minutes + " minutes worked.");
     }
